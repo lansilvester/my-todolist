@@ -1,0 +1,60 @@
+.list_wrapper {
+    display:flex;
+    flex-Wrap:  wrap  ;
+    gap:  12px  ;
+}
+
+.to_do_container{
+    border-left: 10px solid #0490bf;
+    border-Radius:  12px  ;
+    padding:  12px 24px 24px  ;
+    width:  270px ;
+    background:#eaeaea;
+    box-shadow: 5px 3px 15px 5px rgba(0,0,0,.15);
+}
+
+.to_do_title{
+    display:  block  ;
+    font-Size:  1.5em  ;
+    margin-Block-Start:  0.83em  ;
+    margin-Block-End:  0.83em  ;
+    margin-Inline-Start:  0px  ;
+    margin-Inline-End:  0px  ;
+    font-Weight:  bold 
+}
+
+.button_set{
+    display:  flex  ;
+    gap:  10px  ;
+    margin-Top:  24px  ;      
+}
+
+.delete_button{
+    transition:.3s;
+    background-Color:  #e91e1e  ;
+    color:white;
+    border:none;
+    border-Radius:  8px  ;
+    cursor:  pointer  ;
+    font-weight: bold;
+    height:  40px  ;
+    width:  50% 
+}
+.delete_button:hover{
+    background-Color:  #f55b5b  ;
+}
+
+.complete_button{
+    transition:.3s;
+    background-Color:  #00b65b  ;
+    border:  none  ;
+    color:white;
+    font-weight: bold;
+    border-Radius:  8px  ;
+    cursor:  pointer  ;
+    height:  40px  ;
+    width:  50% ;
+}
+.complete_button:hover{
+    background-Color:  #0be076  ;
+}
